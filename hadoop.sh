@@ -4,7 +4,7 @@ TASK="$1"
 
 DIR="${PWD}"
 
-scp -rp $DIR/$TASK/input s1220039@student.ssh.inf.ed.ac.uk:/afs/inf.ed.ac.uk/user/s12/s1220039/Documents/EXC/Assignment1/$TASK/input
+scp -rp $DIR/$TASK/input s1220039@student.ssh.inf.ed.ac.uk:/afs/inf.ed.ac.uk/user/s12/s1220039/Documents/EXC/Assignment1/$TASK/
 
 # remove the existing output directory
 ssh -t -t s1220039@student.ssh.inf.ed.ac.uk << EOL
