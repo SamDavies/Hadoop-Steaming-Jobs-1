@@ -2,7 +2,7 @@ import subprocess
 import unittest
 
 
-class TestTask1(unittest.TestCase):
+class Task1Test(unittest.TestCase):
     def test_to_lower(self):
         bash_command = 'cat task1/example-input.txt | ' \
                       './task1/input/mapper.py | ./task1/input/reducer.py'
