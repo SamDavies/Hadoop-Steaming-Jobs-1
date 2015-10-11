@@ -7,4 +7,4 @@ echo "hdfs dfs -rm -r /user/\$USER/data/output/; hadoop jar /opt/hadoop/hadoop-2
  -file Documents/EXC/Assignment1/task1/input/mapper.py \
  -reducer reducer.py \
  -file Documents/EXC/Assignment1/task1/input/reducer.py \
- -jobconf mapred.job.name=\"Sam's Word counter\""
+ -jobconf mapred.job.name=\"Sam's To lower\""
