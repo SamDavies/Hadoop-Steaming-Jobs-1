@@ -1,0 +1,4 @@
+mary had\t2
+had a\t2
+a lamb\t1
+a tiger\t1
