@@ -12,9 +12,9 @@ hadoop jar /opt/hadoop/hadoop-2.7.1/share/hadoop/tools/lib/hadoop-streaming-2.7.
  -input /user/\$USER/data/input/ \
  -output /user/\$USER/data/output \
  -mapper mapper.py \
- -combiner combiner.py \
- -reducer reducer.py \
  -file Documents/EXC/Assignment1/task6/input/mapper.py \
+ -combiner combiner.py \
  -file Documents/EXC/Assignment1/task6/input/combiner.py \
+ -reducer reducer.py \
  -file Documents/EXC/Assignment1/task6/input/reducer.py \
  -jobconf mapred.job.name=\"Sam's top 20 pairs\" ;"
