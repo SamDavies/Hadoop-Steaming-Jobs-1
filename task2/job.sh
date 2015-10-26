@@ -2,10 +2,10 @@
 
 echo "hdfs dfs -rm -r /user/\$USER/data/output/ ;
       hdfs dfs -rm -r /user/\$USER/data/input/ ;
-      hdfs dfs -mkdir /user/\$USER/data/input &&
-      hdfs dfs -copyFromLocal /afs/inf.ed.ac.uk/user/s12/s1220039/Documents/EXC/Assignment1/task1/output/part-00000 /user/\$USER/data/input/lower-case &&
+      hdfs dfs -copyFromLocal /afs/inf.ed.ac.uk/user/s12/s1220039/Documents/EXC/Assignment1/task1/output/ /user/\$USER/data/ &&
+      hdfs dfs -mv /user/\$USER/data/output /user/\$USER/data/input &&
 hadoop jar /opt/hadoop/hadoop-2.7.1/share/hadoop/tools/lib/hadoop-streaming-2.7.1.jar \
- -input /user/\$USER/data/input/lower-case \
+ -input /user/\$USER/data/input/ \
  -output /user/\$USER/data/output \
  -mapper mapper.py \
  -file Documents/EXC/Assignment1/task2/input/mapper.py \

@@ -15,6 +15,7 @@ hadoop jar /opt/hadoop/hadoop-2.7.1/share/hadoop/tools/lib/hadoop-streaming-2.7.
  -mapper mapper.py \
  -reducer reducer.py \
  -partitioner org.apache.hadoop.mapred.lib.KeyFieldBasedPartitioner \
- -file Documents/EXC/Assignment1/task8/input/mapper.py \
- -file Documents/EXC/Assignment1/task8/input/reducer.py \
- -jobconf mapred.job.name=\"Sam's table join\" ;"
+ -file Documents/EXC/Assignment1/task9/input/mapper.py \
+ -file Documents/EXC/Assignment1/task9/input/reducer.py \
+ -jobconf mapred.job.name=\"Sam's min average garde\" ;
+ hdfs dfs -cat /user/\$USER/data/output/* | sort -n | head -1 | hdfs dfs -put - /user/\$USER/data/output/result.txt;"

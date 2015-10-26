@@ -1,0 +1,14 @@
+student 1 George
+mark EXC 1 40
+mark EXC 1 40
+mark EXC 1 40
+mark EXC 2 40
+mark EXC 1 40
+student 2 Anna
+mark ADBS 1 40
+mark EXC 2 65
+mark TTS 2 80
+mark wrf 2 80
+mark wrf 2 80
+student 3 Anna
+mark ADBS 3 10

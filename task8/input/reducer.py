@@ -9,7 +9,7 @@ name = ""
 for line in sys.stdin:
     line = line.strip()
     key, value = line.split("\t", 1)
-    student, table = line.split(",", 1)
+    student, table = key.split(",", 1)
     
     if prev_student != student:
         if prev_student:
