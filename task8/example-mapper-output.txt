@@ -1,0 +1,6 @@
+1,0	George
+1,1	ADBS 80
+1,1	EXC 70
+1,1	TTS 80
+2,0	Anna
+2,1	EXC 65

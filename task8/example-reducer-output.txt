@@ -1,0 +1,2 @@
+George --> (ADBS, 80) (EXC, 70) (TTS, 80)
+Anna --> (EXC, 65)

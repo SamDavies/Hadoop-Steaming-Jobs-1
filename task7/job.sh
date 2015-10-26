@@ -10,7 +10,7 @@ hadoop jar /opt/hadoop/hadoop-2.7.1/share/hadoop/tools/lib/hadoop-streaming-2.7.
  -D mapred.text.key.comparator.options='-k1,1n -k2,2n' \
  -D mapreduce.partition.keypartitioner.options=-k1,1 \
  -D mapreduce.job.reduces=9 \
- -input /data/assignments/ex1/matrixSmall.txt \
+ -input /data/assignments/ex1/matrixLarge.txt \
  -output /user/\$USER/data/output \
  -mapper mapper.py \
  -reducer reducer.py \
