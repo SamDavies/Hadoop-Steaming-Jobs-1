@@ -54,7 +54,8 @@ import sys
 
 for line in sys.stdin:                  # input from standard input
     line = line.strip()                 # Remove trailing characters
-    print(line)
+    if line:
+        print(line)
 
 #!/usr/bin/python
 # reducer.py
@@ -152,7 +153,7 @@ hadoop jar /opt/hadoop/hadoop-2.7.1/share/hadoop/tools/lib/hadoop-streaming-2.7.
 Task 3 code end
 
 Task 3 results begin
-123513449	1865585
+123513449	1865580
 Task 3 results end
 
 Task 4 code begin
